@@ -1,0 +1,27 @@
+# Cargo
+/target/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# Build output
+dist/
+build/
+elfinstaller-*.tar.gz
+*.pkg.tar.*
+/pkg/
+/src/elfinstaller-*.tar.gz
+/src/elfinstaller-*/
+
+# ELF Installer
+.installed_elfs/
