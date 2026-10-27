@@ -30,7 +30,7 @@ jobs:
           cd dist && tar czvf elfinstaller-amd64.tar.gz elfinstaller
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: elfinstaller-amd64-package
           path: dist/elfinstaller-amd64.tar.gz
