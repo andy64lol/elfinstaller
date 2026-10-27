@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build portable Linux ARM64 binary
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04-arm
     steps:
       - uses: actions/checkout@v4
       
